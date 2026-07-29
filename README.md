@@ -53,6 +53,11 @@ L = -log σ(β · (score(winner) - score(loser))),  β = 0.5
 | 6 | Deploy: gate detector calls on local video files (chunked or frame-by-frame) |
 | 7 | *(Optional)* Hysteresis smoothing of detect/skip decisions to reduce flicker |
 
+# Model Outputs with dataset threshold=5.09 for Object Detection pipeline
+- Output 1
+<video src="https://github.com/user-attachments/assets/a2dc78e1-976d-47af-8cd1-71c85e1f813c" controls width="600"></video>
+- Output 2
+<video src="https://github.com/user-attachments/assets/1538d75b-91a4-4028-bd84-1bd69583ab49" controls width="600"></video>
 ## Results
 <img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/cc692e6e-f845-4611-93de-ae99a1aa579d" />
 
@@ -136,10 +141,4 @@ results = process_local_video_chunked(
 - Detector confidence (not ground-truth boxes) is used as the preference signal — the policy learns to match the detector's own notion of a "good window," not an independent quality measure.
 
 ## License
-
-*(add your license here)*
-# Model Outputs with dataset threshold=10.868 for Object Detection pipeline
-- Output 1
-<video src="https://github.com/user-attachments/assets/a2dc78e1-976d-47af-8cd1-71c85e1f813c" controls width="600"></video>
-- Output 2
-<video src="https://github.com/user-attachments/assets/1538d75b-91a4-4028-bd84-1bd69583ab49" controls width="600"></video>
+**© Deepraj Singha 2026**
