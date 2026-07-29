@@ -62,7 +62,7 @@ L = -log σ(β · (score(winner) - score(loser))),  β = 0.5
 <img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/cc692e6e-f845-4611-93de-ae99a1aa579d" />
 
 
-Evaluated on a **stream-level train/val split**
+Evaluated on a **Train pairs: 2103 & Val pairs: 411**
 
 ### Ranking quality
 
