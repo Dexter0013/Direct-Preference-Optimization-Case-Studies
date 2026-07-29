@@ -54,10 +54,22 @@ L = -log σ(β · (score(winner) - score(loser))),  β = 0.5
 | 7 | *(Optional)* Hysteresis smoothing of detect/skip decisions to reduce flicker |
 
 # Model Outputs with dataset threshold=5.09 for Object Detection pipeline
-- Output 1
-<video src="https://github.com/user-attachments/assets/a2dc78e1-976d-47af-8cd1-71c85e1f813c" controls width="600"></video>
-- Output 2
-<video src="https://github.com/user-attachments/assets/1538d75b-91a4-4028-bd84-1bd69583ab49" controls width="600"></video>
+- Output 1: <br>
+Total time: 9.38s<br>
+Detector ran on: 45/46 (97.8%)<br>
+Compute saved: 2.2%<br>
+<video src="https://github.com/user-attachments/assets/d9ca859b-e0aa-4e89-b607-78a1a9082999" controls width="600"></video>
+- Output 2:<br>
+Total time: 15.14s <br>
+Detector ran on: 43/64 (67.2%) <br>
+Compute saved: 32.8% <br>
+<video src="https://github.com/user-attachments/assets/aed94551-d684-44d4-a1e2-70061c0c36fe" controls width="600"></video>
+- Output 3:<br>
+Total time: 65.25s <br>
+Detector ran on: 178/352 (50.6%) <br>
+Compute saved: 49.4% <br>
+<video src="https://github.com/user-attachments/assets/7909610d-39c8-410a-ab70-60272aec38c6" controls width="600"></video>
+
 ## Results
 <img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/cc692e6e-f845-4611-93de-ae99a1aa579d" />
 
