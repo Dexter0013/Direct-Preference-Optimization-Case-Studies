@@ -4,7 +4,7 @@ A DPO-trained gating policy that decides **when** to run an object detector on v
 
 ## Problem
 
-Running an object detector on every frame of a video is wasteful — many frames are redundant, blurry, or simply not worth the compute. This project trains a lightweight policy via **Direct Preference Optimization (DPO)** to look at a short temporal window of frames and decide: *is this moment worth running the detector on, or can we skip it and reuse the last result?*
+Running an object detector on every frame of a video is wasteful, many frames are redundant, blurry, or simply not worth the compute. This project trains a lightweight policy via **Direct Preference Optimization (DPO)** to look at a short temporal window of frames and decide: *is this moment worth running the detector on, or can we skip it and reuse the last result?*
 
 The policy is a small Transformer scorer (~1M parameters) sitting in front of a frozen, much heavier detector (RF-DETR-Nano). It never touches the detector's weights, it only learns when to call it.
 
