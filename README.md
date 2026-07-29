@@ -53,7 +53,7 @@ L = -log σ(β · (score(winner) - score(loser))),  β = 0.5
 | 6 | Deploy: gate detector calls on local video files (chunked or frame-by-frame) |
 | 7 | *(Optional)* Hysteresis smoothing of detect/skip decisions to reduce flicker |
 
-# Model Outputs with dataset threshold=5.09 for Object Detection pipeline
+# Model Outputs with threshold=5.09 for Object Detection pipeline
 - Output 1: <br>
 Total time: 9.38s<br>
 Detector ran on: 45/46 (97.8%)<br>
