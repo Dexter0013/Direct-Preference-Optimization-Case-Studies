@@ -119,7 +119,7 @@ The detector is ~29.1x more expensive then the Policy.
 
 ```
 Model/
-  Generalized_DPO(pytorch_model).ipynb   # end-to-end pipeline notebook
+  DPO_Using_RF_DETR_and_Validation.ipynb   # end-to-end pipeline notebook
 ```
 
 ## Requirements
