@@ -1,0 +1,63 @@
+{
+  "ranking_quality": {
+    "train": {
+      "n_pairs": 2103,
+      "pairwise_accuracy": 0.9919163100332857,
+      "roc_auc": 0.9561564226003249,
+      "pr_auc": 0.9672191516460478,
+      "margin_mean": 14.528558731079102,
+      "margin_std": 6.205416202545166,
+      "margin_p10": 6.8843464851379395,
+      "winner_score_mean": 10.410988807678223,
+      "loser_score_mean": -4.117570877075195
+    },
+    "val": {
+      "n_pairs": 411,
+      "pairwise_accuracy": 1.0,
+      "roc_auc": 0.9905399565477353,
+      "pr_auc": 0.9915171936754155,
+      "margin_mean": 15.375813484191895,
+      "margin_std": 4.6984052658081055,
+      "margin_p10": 9.397642135620117,
+      "winner_score_mean": 11.816241264343262,
+      "loser_score_mean": -3.559573173522949
+    },
+    "train_val_accuracy_gap": -0.00808368996671427
+  },
+  "threshold_sweep": {
+    "best_accuracy": {
+      "threshold": 5.098384857177734,
+      "precision": 0.9514563106796117,
+      "recall": 0.9537712895377128,
+      "f1": 0.9526123936816524,
+      "accuracy": 0.9525547445255474,
+      "call_rate": 0.5012165450121655
+    },
+    "best_f1": {
+      "threshold": 5.098384857177734,
+      "precision": 0.9514563106796117,
+      "recall": 0.9537712895377128,
+      "f1": 0.9526123936816524,
+      "accuracy": 0.9525547445255474,
+      "call_rate": 0.5012165450121655
+    }
+  },
+  "compute_efficiency": {
+    "gating_methods_recall_at_budget": {
+      "dpo_policy": {
+        "mean_recall_at_budget": 0.4576388888888889,
+        "n_streams": 8
+      },
+      "random": {
+        "mean_recall_at_budget": 0.25069444444444444,
+        "n_streams": 8
+      },
+      "uniform_stride": {
+        "mean_recall_at_budget": 0.3729166666666667,
+        "n_streams": 8
+      }
+    },
+    "policy_ms_per_window": 0.6781864166259766,
+    "detector_ms_per_window": 30.10392427444458
+  }
+}
